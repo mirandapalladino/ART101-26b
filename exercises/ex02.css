@@ -1,0 +1,24 @@
+p {color: blue; font-size: large;
+font-weight: bold;}
+
+p strong {font-weight:normal}
+li { text-align: center;}
+
+html{ font-family: "helvetica";
+background-color: red;}
+
+span { background-color:azure}
+
+/*selecr all html tags that have a class highlight_01*/
+.highlight_01 {background-color:azure}
+
+.highlight_02 {background-color:orange}
+
+.highlight_03 {background-color:purple}
+/* add picture soon*/
+#small-monchhichi IMG {width: 100px}
+
+li.bestfriends {color: blueviolet}
+li.enemies {color:aqua }
+#funfont {font-family: 'Courier New', Courier, monospace;}
+#boringfont
