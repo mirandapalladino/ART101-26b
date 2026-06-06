@@ -5,10 +5,10 @@ let arrayPosition = count - 1;
 let message = "";
 
 let buttonCreature = {
-    name: "Needy Button",
-    species: "interface creature",
-    favoriteFood: "clicks",
-    moods: ["sleepy", "nervous", "glowing", "dramatic", "hopeful", "confused"]
+    name: "redrocky",
+    species: "rocketship",
+    favoriteFood: "fuel",
+    moods: ["spacey", "sleepy", "sweaty", "super"]
 };
 
 $("#needy-button").click(function () {
