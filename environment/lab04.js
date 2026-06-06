@@ -8,11 +8,10 @@ let buttonCreature = {
     name: "redrocky",
     species: "rocketship",
     favoriteFood: "fuel",
-    moods: ["spacey", "sleepy", "sweaty", "super"]
+    moods: ["spacey", "sleepy", "sweaty", "super"],
 };
 
 $("#needy-button").click(function () {
-
     count = count + 1;
 
     let arrayPosition = count - 1;
@@ -21,12 +20,15 @@ $("#needy-button").click(function () {
 
     message = message + "<p>My name is " + buttonCreature.name + ".</p>";
     message = message + "<p>I am an " + buttonCreature.species + ".</p>";
-    message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
+    message =
+        message +
+        "<p>My favorite food is " +
+        buttonCreature.favoriteFood +
+        ".</p>";
 
     $("#output").html(message);
 
     console.log(count);
     console.log(arrayPosition);
     console.log(currentMood);
-
 });

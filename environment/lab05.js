@@ -3,8 +3,7 @@ function askNumber(whatNumber) {
 
     if (userNumber == whatNumber) {
         $("#output").html("You got it!");
-    }
-    else {
+    } else {
         $("#output").html("Noooooope");
     }
 }
