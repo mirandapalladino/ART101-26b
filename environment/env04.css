@@ -1,0 +1,24 @@
+body {
+    color: red;
+    background-image: url(envisgain.jpg);
+}
+
+.besides {
+    display: flex;
+    gap: 10px;
+}
+
+.besides img {
+    width: 40%;
+}
+
+ul {
+    color: white;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border: 0;
+    padding: 8px;
+}
