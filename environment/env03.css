@@ -1,0 +1,12 @@
+body {
+    color: red;
+    background-image: url(envisgain.jpg);
+}
+
+.besides {
+    display: flex;
+}
+
+.besides > img {
+    width: 40%;
+}
